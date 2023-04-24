@@ -226,7 +226,18 @@ background-color: var(--btn);
   width: 24px;
   height: 24px;
   background-color: rgba(0, 0, 0, 0);
-
+  box-sizing: border-box;
+  
+  
+   background: var(--cornflower);
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   border-radius: 50%;
+}
+.btn-close:hover{
+  background-color: var(--brend);
+}
+.btn-close:focus{
+  background-color: var(--brend);
 }
 
 .model {
