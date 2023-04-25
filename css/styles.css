@@ -232,6 +232,9 @@ background-color: var(--btn);
    background: var(--cornflower);
    border: 1px solid rgba(0, 0, 0, 0.1);
    border-radius: 50%;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+   
 }
 .btn-close:hover{
   background-color: var(--brend);
